@@ -41,3 +41,13 @@ ALTER TABLE campaign ADD CONSTRAINT fk_camp_contact_id FOREIGN KEY(contact_id) R
 ALTER TABLE campaign ADD CONSTRAINT fk_camp_subcat_id FOREIGN KEY(subcategory_id) REFERENCES subcategory(subcategory_id);
 
 ALTER TABLE campaign ADD CONSTRAINT fk_camp_cat_id FOREIGN KEY(category_id) REFERENCES category(category_id);
+
+
+
+select * from contacts
+
+select * from category
+
+select * from subcategory
+
+select * from campaign
